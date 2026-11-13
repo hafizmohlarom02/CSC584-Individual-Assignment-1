@@ -39,7 +39,7 @@ and displays it on a JSP page.
 
 ## Student Information
 
-Name: Muhammad Hafiz bin Mohlarom
-Course: CSC584
-Matrix No: 2025152201
-Assignment: Individual Assignment 1
+1. Name: Muhammad Hafiz bin Mohlarom
+2. Course: CSC584
+3. Matrix No: 2025152201
+4. Assignment: Individual Assignment 1
