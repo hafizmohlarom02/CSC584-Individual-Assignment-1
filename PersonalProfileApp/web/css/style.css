@@ -1,0 +1,114 @@
+/* General page design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2457a7;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background-color: #2457a7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #173d78;
+}
+
+/* Profile information */
+.detail {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.detail strong {
+    display: block;
+    color: #2457a7;
+    margin-bottom: 7px;
+}
+
+/* Back button */
+.back-button {
+    display: block;
+    text-align: center;
+    background-color: #2457a7;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+
+.back-button:hover {
+    background-color: #173d78;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+        margin: 15px auto;
+    }
+
+}
